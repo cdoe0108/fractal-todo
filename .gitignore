@@ -1,0 +1,22 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+#dummyData
+/dummyData
+
+# production
+/dist
+
+# misc
+.DS_Store
+
+npm-debug.log*
+package-lock.json
+
+#env
+.env
+.env.development
+.env.staging
+.env.production
