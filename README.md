@@ -1,4 +1,4 @@
 # fractal-todo
 
-used create-react-app CLI
-used react-hooks
+> used create-react-app CLI
+> used react-hooks
