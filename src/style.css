@@ -5,14 +5,37 @@
   font-family: Lato;
 }
 
-.content-wrapper{
+.wrapper{
   width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.bucket-wrapper{
+  padding: 35px;
+  border-radius: 8px;
+  background: #f4f6ff;
+  border: 1px solid rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.bucket-title{
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.text-field {
+  padding: 8px 10px;
+  outline: 0;
+  border: 1px solid #ccc;
+  min-width: 80%;
+  margin: 5px auto;
+}
+
 
 .btn{
   outline: 0;
@@ -47,6 +70,7 @@
 
 .todo-list{
   padding: 30px 60px;
+  margin: 35px auto;
   box-shadow: 5px 5px 8px 7px rgba(0,0,0,0.2);
 }
 
